@@ -9,6 +9,7 @@
             background: linear-gradient(135deg, #ffe4f0, #ffd6b5);
             padding: 30px;
             text-align: center;
+            position: relative;
         }
         h1 {
             color: #ff4f91;
@@ -16,15 +17,29 @@
         }
         p {
             font-size: 1.2em;
-            color: #333;
+            color: #ffb6c1; /* нежно-розовый */
             max-width: 700px;
             margin: 20px auto;
             line-height: 1.6;
         }
+        .decorative {
+            position: fixed;
+            width: 120px;
+            height: 120px;
+            background-size: cover;
+            pointer-events: none;
+        }
     </style>
 </head>
 <body>
+    <!-- Милые котики -->
+    <div class="decorative" style="top:5%; left:5%; background-image:url('https://media.giphy.com/media/mlvseq9yvZhba/giphy.gif');"></div>
+    <div class="decorative" style="top:10%; right:10%; background-image:url('https://media.giphy.com/media/3oriO0OEd9QIDdllqo/giphy.gif');"></div>
+    <div class="decorative" style="bottom:10%; left:20%; background-image:url('https://media.giphy.com/media/l3vR85PnGsBwu1PFK/giphy.gif');"></div>
+    <div class="decorative" style="bottom:15%; right:25%; background-image:url('https://media.giphy.com/media/mlvseq9yvZhba/giphy.gif');"></div>
+
     <h1>Поздравляю тебя с днём рождения!</h1>
-    <p>Хочу искренне поздравить тебя с днём рождения, ты самый лучший человек, которого я встречала в своей жизни. Желаю тебе всего наилучшего и чтобы все твои мечты сбылись. В начале нашего знакомства я не думала, что ты станешь настолько близким человеком для меня и что мы будем общаться так долго. Я очень надеюсь, что наше общение никогда не прекратится. Извини, что я не смогла отправить тебе какой-то подарок, но я надеюсь, что тебе понравится эта открытка :)</p>
+    <p>Хочу искренне поздравить тебя с днём рождения. Ты самый лучший человек, которого я встречала в своей жизни. Желаю тебе всего наилучшего и чтобы все твои мечты сбылись. В начале нашего знакомства я не думала, что ты станешь настолько близким человеком для меня и что мы будем общаться так долго. Я очень надеюсь, что наше общение никогда не прекратится. Извини, что я не смогла отправить тебе какой-то подарок, но я надеюсь, что тебе понравится эта открытка :)</p>
 </body>
 </html>
+
